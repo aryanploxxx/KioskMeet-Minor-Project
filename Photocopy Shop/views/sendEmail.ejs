@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Form</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-4">
+    <div class="max-w-xl mx-auto bg-white rounded p-8">
+        <h1 class="text-2xl font-semibold mb-4">Photocopy Shop</h1>
+        <form>
+            <div class="mb-4">
+                <label for="from_email" class="block text-gray-700 font-bold mb-2">Sender's Email</label>
+                <input type="email" id="from_email" name="from_email" placeholder="Enter from email" class="w-full border border-gray-300 p-2 rounded">
+            </div>
+            <div class="mb-4">
+                <label for="from_password" class="block text-gray-700 font-bold mb-2">Sender's Password</label>
+                <input type="password" id="from_password" name="from_password" placeholder="Enter password" class="w-full border border-gray-300 p-2 rounded">
+            </div>
+            <div class="mb-4">
+                <label for="to_email" class="block text-gray-700 font-bold mb-2">Reciever's Email</label>
+                <input type="email" id="to_email" name="to_email" placeholder="Enter to email" class="w-full border border-gray-300 p-2 rounded">
+            </div>
+            <div class="mb-4">
+                <label for="subject" class="block text-gray-700 font-bold mb-2">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter subject" class="w-full border border-gray-300 p-2 rounded">
+            </div>
+            <div class="mb-4">
+                <label for="body" class="block text-gray-700 font-bold mb-2">Body</label>
+                <textarea id="body" name="body" placeholder="Enter email body" class="w-full border border-gray-300 p-2 rounded"></textarea>
+            </div>
+            <div class="mb-4">
+                <label for="print_options" class="block text-gray-700 font-bold mb-2">Print Options</label>
+                <select id="print_options" name="print_options" class="w-full border border-gray-300 p-2 rounded">
+                    <option value="black_white">Black & White</option>
+                    <option value="colored">Color</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="pages_per_page" class="block text-gray-700 font-bold mb-2">Pages per print</label>
+                <select id="pages_per_page" name="pages_per_page" class="w-full border border-gray-300 p-2 rounded">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="print_type" class="block text-gray-700 font-bold mb-2">Print Type</label>
+                <select id="print_type" name="print_type" class="w-full border border-gray-300 p-2 rounded">
+                    <option value="single_sided">Single Sided</option>
+                    <option value="double_sided">Double Sided</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="files" class="block text-gray-700 font-bold mb-2">Upload Files</label>
+                <input type="file" id="files" name="files" class="w-full border border-gray-300 p-2 rounded">
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
