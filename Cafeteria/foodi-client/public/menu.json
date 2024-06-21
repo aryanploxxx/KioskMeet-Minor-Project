@@ -1,0 +1,35 @@
+[
+
+    {
+        "_id": "642c155b2c4774f05c36ee7c",
+        "name": "Burger",
+        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "image": "/images/home/category/img1.png",
+        "category": "popular",
+        "price": 50
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee88",
+        "name": "Grilled Sandwich",
+        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+        "image": "/images/home/category/img2.png",
+        "category": "popular",
+        "price": 75
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7a",
+        "name": "Icecream",
+        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "image": "/images/home/category/img3.png",
+        "category": "popular",
+        "price": 20
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee74",
+        "name": "Coldrink",
+        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "image": "/images/home/category/img4.png",
+        "category": "popular",
+        "price": 40
+    }
+]
