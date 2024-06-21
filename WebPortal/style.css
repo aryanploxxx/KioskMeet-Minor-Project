@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 50vw; */
+    /* outline: 1px solid red; */
+    height: 10vh;
+}
+
+.right_nav button {
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#get_print, #schedule_meet {
+    border: none;
+    background-color: #0bc442;
+    color: #f8f8f8;
+}
+
+.logo_nav {
+    width: 12vw;
+    margin: 15px auto;
+}
+
+.content {
+    height: 70vh;
+    /* outline: 1px solid green; */
+    font-family: Gilroy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.content p {
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: center;
+    /* margin: 40px auto; */
+    /* margin-top: 10px; */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-group button{
+    /* display: inline-block; */
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.button-group button:hover{
+    background-color: black;
+    color:#f8f8f8;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.button-group select,option{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.landing_page_asset {
+    width: 50vw;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    /* align-items: center;    */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    border-radius: 12px;
+    width: 20vw;
+    height: 40vh;
+    /* outline: 1px solid blue; */
+    background-color: rgb(203, 200, 200, 0.3);
+    padding: 25px;
+    font-size: 24px;
+    font-family: Gilroy;
+}
+
+.card p {
+    font-size: 18px;
+    margin-top: 12px;
+    
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    /* font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;  */
+    font-family: Gilroy;
+    /* margin: 0; */
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 25px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    /* padding: 12px 16px; */
+    padding: 15px 50px;
+    font-size: 18px;
+
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

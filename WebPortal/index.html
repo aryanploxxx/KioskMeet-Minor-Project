@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="left_nav">
+            <img src="./media/KioskMeet_Logo.png" class="logo_nav">
+        </div>
+        <div class="right_nav">
+            <a href="http://localhost:8080/"><button id="get_print">Get Prints</button></a>
+            <!-- <button id="schedule_meet">Schedule Meet</button> -->
+        </div>
+    </nav>
+
+    <div class="content">
+        <p>your one stop solution<br>for all your college needs.</p>
+        <div class="button-group">
+            <a href="index.php">
+                <button>Student</button>
+            </a>
+            <!-- <select>
+                <option><a href="./auth/loginAdmin.php">Faculty</a></option>
+                <option>Admin</option>
+                <option>Laundry</option>
+                <option>Mess / Cafeteria</option>
+            </select> -->
+
+            <div class="dropdown">
+                <button class="dropbtn">Select Role 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="./auth/loginTeacher.php">Faculty</a>
+                    <a href="./auth/loginAdmin.php">Admin</a>
+                    <a href="http://localhost:9000/">Laundry</a>
+                    <a href="http://localhost:5173/">Mess / Cafeteria</a>
+                </div>
+            </div> 
+              
+        </div>
+        <img src="./media/home-hero.png" class="landing_page_asset">
+        <!-- <hr style="width: 80%; margin: -5px;"/> -->
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Students 👾</h3>
+            <p>Gets access to a variety of features including Attendance, Marks, Fee Payment, all at a single click.<br><br>Skip long lines at the photocopy shop and get your essential documents printed.<br><br>Additionally, schedule a video conference with your peers to help yout study better.</p>
+        </div>
+        <div class="card">
+            <h3>Authorities 🤠</h3>
+            <p>Update Attendace, Lock Marks, Schedule Classes, everything on a single portal.</p>
+        </div>
+
+        <div class="card">
+            <h3>Mess/Cafeteria ✨</h3>
+            <p>Upload Weekly Menu and Push Important changes regarding change in timings and menu.</p>
+        </div>
+    </div>
+</body>
+</html>

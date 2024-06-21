@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  /* background-image: url("../bg_gradient.jpg");
+  background-size: 100%;
+  background-attachment: fixed; */
+  background-color: #f8f8f8;
+
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50vw;
+  /* outline: 1px solid red; */
+  height: 10vh;
+}
+
+.right_nav button {
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+#get_print, #schedule_meet {
+  border: none;
+  background-color: rgb(11, 196, 66);
+  color: #f8f8f8;
+}
+
+.logo_nav {
+  width: 12vw;
+  margin: 15px auto;
+}
+
+#title {
+  display: flex;
+  padding: 0 20px;
+}
+
+#title small {
+  margin: 4px 10px;
+}
+
+#nav-items {
+  display: flex;
+}
+.nav-item {
+  margin: 0 20px;
+  transition: transform 0.05s ease-out;
+}
+
+.nav-item:hover {
+  transform: scaleX(1.1);
+}
+
+.nav-item a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: black;
+}
+
+#form-wrapper {
+  padding: 40px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255,255,255,0.2);
+  min-height: 220px;
+  max-width: 600px;
+  box-shadow: 0px 5px 30px -3px rgb(37, 37, 37);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#profile-wrapper {
+  padding: 40px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background: #e6e6e6; */
+  background-color: rgb(255,255,255,0.2);
+  min-height: 220px;
+  max-width: 400px;
+  box-shadow: 0px 5px 30px -3px rgb(37, 37, 37);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -1550%);
+}
+#form-wrapper h3 {
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+
+th,
+td,
+tr {
+  min-width: 150px;
+  padding: 8px 7px;
+  text-align: center;
+}
+
+tr {
+  box-shadow: 0px 5px 20px -15px rgb(37, 37, 37);
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(255,255,255,0.8);
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+td {
+  margin: 10px;
+}
+
+.btn {
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-left: auto;
+  cursor: pointer;
+  background: none;
+  padding: 14px 30px;
+  border-radius: 24px;
+  border: 2px solid #2ecc71;
+  transition: 0.25s;
+}
+
+input[type="submit"]:hover {
+  background: #2ecc71;
+}
+
+#updated {
+  margin-top: 10px;
+  color: red;
+  text-align: center;
+}
+
+#batch {
+  text-align: center;
+}
+
+#grades-wrapper {
+  padding: 40px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e6e6e6;
+  min-height: 220px;
+  max-width: 1200;
+  box-shadow: 0px 5px 30px -3px rgb(37, 37, 37);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#diffbatch:visited {
+  text-decoration: none;
+  color: #6b6b6b;
+}
+#diffbatch:hover {
+  text-decoration: none;
+  color: #000000;
+}
+#diffbatch:focus {
+  text-decoration: none;
+  color: #6b6b6b;
+}
+#diffbatch:hover,
+a:active {
+  text-decoration: none;
+  color: #6b6b6b;
+}

@@ -1,0 +1,220 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("../assets/jaypee.jpg");
+  background-image: url("../../bg_gradient.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#container {
+  position: absolute;
+  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#form-wrapper {
+  padding: 40px;
+  background: #e6e6e6;
+  min-height: 220px;
+  box-shadow: 0px 5px 30px -3px rgb(37, 37, 37);
+  border-radius: 5px;
+}
+
+input[type="number"],
+input[type="password"] {
+  margin: 10px;
+  padding: 14px 10px;
+  outline: none;
+  background: none;
+  border: 2px solid #3498db;
+  color: rgb(73, 73, 73);
+  text-align: center;
+  border-radius: 5px;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+#credStat {
+  color: rgb(255, 0, 0);
+  font-size: small;
+  position: absolute;
+  left: 25%;
+  top: 90%;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  background: none;
+  padding: 14px 30px;
+  border-radius: 24px;
+  border: 2px solid #2ecc71;
+  transition: 0.25s;
+}
+
+input[type="submit"]:hover {
+  background: #2ecc71;
+}
+
+To remove number spinners from 'number' input field
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+}
+input[type="number"] {
+  appearance: textfield;
+}
+*/
+
+
+#loginElsewhere {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  font-family: sans-serif;
+}
+
+ body {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../../bg_gradient.jpg");
+  /* background-color: #f8f8f8; */
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.form {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(21, 23, 43,0.9);
+  border-radius: 15px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 420px;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.cut {
+  background-color: rgb(21, 23, 43);
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.placeholder {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097;
+}
+
+.input:focus ~ .placeholder {
+  color: #dc2f55;
+}
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #06b;
+}
+
